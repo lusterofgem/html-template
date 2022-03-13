@@ -1,0 +1,41 @@
+* {
+  user-select: none;
+  font-size: 120%;
+  font-weight: bold;
+  overflow: auto;
+}
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+#header {
+  height: 60%;
+  background-color: rgb(127,201,255);
+  font-size: 200%;
+  text-align: center;
+  color: rgb(0,0,0,0.5);
+}
+#container {
+  height: 35%;
+  /* make the two div to ignore new line character, and display in one line */
+  /*white-space: nowrap;*/
+  background-color: rgb(120,120,120);
+}
+#footer {
+  height: 5%;
+  background-color: rgb(80,80,80);
+}
+#containerLeft {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+}
+#containerRight {
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+  background-color: rgb(150,150,150);
+  /* make the div to the top */
+  vertical-align: top;
+}
